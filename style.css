@@ -1,0 +1,132 @@
+/* CCS comments will go here */
+
+
+/* how to color text within html */
+
+body { background-image: url(Images/Gaming5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
+
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h2,h3{color:black;
+font-size: 24px;
+font-weight: bolder;}
+
+h4{color: black;
+font-size: 30px;
+font-weight: bolder;}
+
+/*body {
+    ;}
+
+    */
+
+
+/* how to put background color in html */
+
+    /* background-color: rgba(241, 49, 15, 0.8); */
+
+
+/* .aboutme{background-color: darkviolet;} */
+
+.large {font-size: 50px;}
+
+/* how to size and center text and images */
+
+*{
+    box-sizing: border-box;
+    /* padding: 75px; */
+}
+
+.extramargin {
+    margin:0px 100px 0px ;
+    background-color: white;
+}
+
+
+* {box-sizing: border-box;
+padding: 25px 0px 25px 0px;}
+
+.centerText {
+    text-align: center;
+}
+
+.centerImg {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1, h2, h3, h4, p {
+    background-color: rgba(149, 175, 255, 0.1);
+}
+/* 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 15px;
+    background-color: #dddddd;
+  } */
+
+  ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(3, 1, 1);
+  }
+  
+  li {
+    float: left;
+  }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+        padding: 14px 16px;
+      }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  
+  .active {
+    background-color: #aa0404;
+  }
+
+  /* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
